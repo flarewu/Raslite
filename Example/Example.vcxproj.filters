@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Auxilliaries">
+      <UniqueIdentifier>{2ac339ae-0d92-4b73-b380-08322f2b8bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example">
+      <UniqueIdentifier>{e94d3c0c-e57d-4f78-b524-59e73114e399}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\RasliteX\RasliteXGeometry.cpp">
+      <Filter>Auxilliaries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RasliteX\RasliteXInput.cpp">
+      <Filter>Auxilliaries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RasliteX\RasliteXTimer.cpp">
+      <Filter>Auxilliaries</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckerBoardExample.cpp">
+      <Filter>Example</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBoxExample.cpp">
+      <Filter>Example</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawIndexedExample.cpp">
+      <Filter>Example</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawTriangleExample.cpp">
+      <Filter>Example</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundExample.cpp">
+      <Filter>Example</Filter>
+    </ClCompile>
+    <ClCompile Include="HolographicExample.cpp">
+      <Filter>Example</Filter>
+    </ClCompile>
+    <ClCompile Include="ExampleMain.cpp" />
+    <ClCompile Include="Pixelizer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\RasliteX\RasliteXGeometry.h">
+      <Filter>Auxilliaries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RasliteX\RasliteXInput.h">
+      <Filter>Auxilliaries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RasliteX\RasliteXTimer.h">
+      <Filter>Auxilliaries</Filter>
+    </ClInclude>
+    <ClInclude Include="Pixelizer.h" />
+    <ClInclude Include="Example.h" />
+  </ItemGroup>
+</Project>

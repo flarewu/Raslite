@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Raslite.h" />
+    <ClInclude Include="RasliteCommon.h" />
+    <ClInclude Include="RasliteData.h" />
+    <ClInclude Include="RasliteMath.h" />
+    <ClInclude Include="RaslitePipeline.h" />
+    <ClInclude Include="RasliteShader.h" />
+    <ClInclude Include="RasliteSIMD.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RasliteData.cpp" />
+    <ClCompile Include="RasliteMath.cpp" />
+    <ClCompile Include="RaslitePipeline.cpp" />
+    <ClCompile Include="RasliteShader.cpp" />
+  </ItemGroup>
+</Project>
